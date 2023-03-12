@@ -6,6 +6,7 @@ import { store } from './store/store';
 import browserHistory from './browser-history';
 import HistoryRouter from './components/history-route/history-route';
 import { GoogleOAuthProvider } from '@react-oauth/google';
+import './index.scss';
 
 const API_KEY = process.env.REACT_APP_GOOGLE_ID as string;
 
